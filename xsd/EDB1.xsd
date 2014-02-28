@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="RECORD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="DOCUMENT-DATA"/>
+        <xs:element ref="SERIES-DATA"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DOCUMENT-DATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ACCESSION-NO"/>
+        <xs:element ref="PRODUCT-CODE"/>
+        <xs:element ref="ISSUE-CODE"/>
+        <xs:element ref="DATE"/>
+        <xs:element ref="PAGES"/>
+        <xs:element ref="IMPRINT"/>
+        <xs:element ref="SUDOC-INFO"/>
+        <xs:element ref="PUBLICATION-NUMBER"/>
+        <xs:element ref="TITLE"/>
+        <xs:element ref="ISSUING-AGENCY"/>
+        <xs:element maxOccurs="unbounded" ref="SUBJECT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ACCESSION-NO" type="xs:NCName"/>
+  <xs:element name="PRODUCT-CODE" type="xs:NCName"/>
+  <xs:element name="ISSUE-CODE" type="xs:NCName"/>
+  <xs:element name="DATE">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:integer">
+          <xs:attribute name="range-end" use="required" type="xs:NMTOKEN"/>
+          <xs:attribute name="range-start" use="required" type="xs:NMTOKEN"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="PAGES" type="xs:string"/>
+  <xs:element name="IMPRINT" type="xs:NCName"/>
+  <xs:element name="SUDOC-INFO">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="SUDOC"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SUDOC" type="xs:NMTOKEN"/>
+  <xs:element name="PUBLICATION-NUMBER" type="xs:string"/>
+  <xs:element name="TITLE" type="xs:string"/>
+  <xs:element name="ISSUING-AGENCY" type="xs:string"/>
+  <xs:element name="SUBJECT" type="xs:string"/>
+  <xs:element name="SERIES-DATA">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="SERIES-HEADING-MAJOR"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SERIES-HEADING-MAJOR" type="xs:string"/>
+</xs:schema>

@@ -1,0 +1,206 @@
+{
+	"elements": [{
+		"attributes": [{
+               "attribute" : true,
+               "localName" : "xmlns:xsi",
+               "name" : "xmlns:xsi",
+               "namespace" : "",
+               "type" : "string",
+               "values:" : [ "http://www.w3.org/2001/XMLSchema-instance" ]
+            },
+            {
+               "attribute" : true,
+               "localName" : "xsi:noNamespaceSchemaLocation",
+               "name" : "xsi:noNamespaceSchemaLocation",
+               "namespace" : "",
+               "type" : "string",
+               "values" : [ "file:///C:/Kamalesh/Rnd/jquery.xmleditor.my/xsd/EDB1.xsd" ]
+            }],
+		"element": true,
+		"elements": [{
+               "attributes" : [],
+               "element" : true,
+               "elements" : [
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "SERIES-HEADING-MAJOR",
+                     "name" : "SERIES-HEADING-MAJOR",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  }
+               ],
+               "localName" : "SERIES-DATA",
+               "name" : "SERIES-DATA",
+               "namespace" : "",
+               "type" : "string",
+               "values" : []
+            },
+            {
+               "attributes" : [],
+               "element" : true,
+               "elements" : [
+                  {
+                     "attributes" : [
+                        {
+                           "attribute" : true,
+                           "localName" : "PRIMARY",
+                           "name" : "PRIMARY",
+                           "namespace" : "",
+                           "type" : "string",
+                           "values" : [ "YES" ]
+                        }
+                     ],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "ACCESSION-NO",
+                     "name" : "ACCESSION-NO",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "PRODUCT-CODE",
+                     "name" : "PRODUCT-CODE",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "ISSUE-CODE",
+                     "name" : "ISSUE-CODE",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "PAGES",
+                     "name" : "PAGES",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "IMPRINT",
+                     "name" : "IMPRINT",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "PUBLICATION-NUMBER",
+                     "name" : "PUBLICATION-NUMBER",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [
+                        {
+                           "attributes" : [],
+                           "element" : true,
+                           "elements" : [],
+                           "localName" : "SUDOC",
+                           "name" : "SUDOC",
+                           "namespace" : "",
+                           "type" : "string",
+                           "values" : []
+                        }
+                     ],
+                     "localName" : "SUDOC-INFO",
+                     "name" : "SUDOC-INFO",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [
+                        {
+                           "attribute" : true,
+                           "localName" : "RANGE-END",
+                           "name" : "RANGE-END",
+                           "namespace" : "",
+                           "type" : "string",
+                           "values" : []
+                        },
+                        {
+                           "attribute" : true,
+                           "localName" : "RANGE-START",
+                           "name" : "RANGE-START",
+                           "namespace" : "",
+                           "type" : "string",
+                           "values" : []
+                        },
+                        {
+                           "attribute" : true,
+                           "localName" : "TYPE",
+                           "name" : "TYPE",
+                           "namespace" : "",
+                           "type" : "string",
+                           "values" : []
+                        }
+                     ],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "DATE",
+                     "name" : "DATE",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "ISSUING-AGENCY",
+                     "name" : "ISSUING-AGENCY",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  },
+                  {
+                     "attributes" : [],
+                     "element" : true,
+                     "elements" : [],
+                     "localName" : "SUBJECT",
+                     "name" : "SUBJECT",
+                     "namespace" : "",
+                     "type" : "string",
+                     "values" : []
+                  }
+               ],
+               "localName" : "DOCUMENT-DATA",
+               "name" : "DOCUMENT-DATA",
+               "namespace" : "",
+               "type" : "string",
+               "values" : []
+            }
+		],
+		"localName": "RECORD",
+		"name": "RECORD",
+		"namespace": "http://www.w3.org/2001/XMLSchema-instance",
+		"value": []
+	}],
+	"name": "",
+	"namespace": "",
+	"schema": true
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+
+  <RECORD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///c:/user/ATLAS/EBD2/EDB1.xsd">
+
+    <DOCUMENT-DATA>
+
+      <ACCESSION-NO>C102-13</ACCESSION-NO>
+
+	  <PRODUCT-CODE>EBD1</PRODUCT-CODE>
+
+      <ISSUE-CODE>A</ISSUE-CODE>
+
+      <DATE range-start="1905-01-01" range-end="1905-12-31">1905</DATE>
+
+      <PAGES>60 p.</PAGES>
+
+      <IMPRINT>GPO</IMPRINT>
+
+      <SUDOC-INFO>
+
+        <SUDOC>C1.2:D44</SUDOC>
+
+      </SUDOC-INFO>
+
+      <PUBLICATION-NUMBER>Commerce and Labor Dept. Doc. No. 30</PUBLICATION-NUMBER>
+
+      <TITLE>Departmental index being alphabetical arrangement of subjects in statutes relating to executive departments in general, provisions of law referring to particular departments are not included</TITLE>
+
+      <ISSUING-AGENCY>Secretary, Department of Commerce and Labor</ISSUING-AGENCY>
+
+      <SUBJECT>Directories</SUBJECT>
+
+      <SUBJECT>Federal executive departments</SUBJECT>
+
+    </DOCUMENT-DATA>
+
+    <SERIES-DATA>
+
+      <SERIES-HEADING-MAJOR>C102 Secretary General Publications</SERIES-HEADING-MAJOR>
+
+    </SERIES-DATA>
+
+  </RECORD>

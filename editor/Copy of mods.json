@@ -1,0 +1,216 @@
+{
+	"name": "",
+	"elements": [{
+		"name": "PUB-ENTRY",
+		"localName": "PUB-ENTRY",
+		"elements": [{
+				"name": "ACCESSION-NO",
+				"localName": "ACCESSION-NO",
+				"elements":{},
+				"values": [],
+				"attributes": [{"$ref": "$[\"elements\"][0][\"elements\"][0][\"attributes\"][0]"}],
+				"namespace": "",
+				"element": true,
+				"type": "string"
+			},
+			{
+				"name": "BIB",
+				"localName": "BIB",
+				"elements":[{
+					"name" : "TITLE",
+					"localName": "TITLE",
+					"elements":[{
+						"name" : "TITLE-TEXT",
+						"localName": "TITLE-TEXT",
+						"elements":{},
+						"values" : [],
+						"namespace": "",
+						"attributes": [],
+						"element": true,
+						"type": "string"
+					}],
+					"values" : [],
+					"attributes": [{
+						"name": "PRIMARY",
+						"localName": "PRIMARY",
+						"values": ["YES"],
+						"namespace": "",
+						"attribute": true,
+						"type": "string"
+					}],
+					"namespace": "",
+					"element": true,
+					"type": "string"
+				},
+				{
+					"name" : "DATE",
+					"localName": "DATE",
+					"elements":[],
+					"values" : [],
+					"attributes": [{
+						"name": "RANGE-END",
+						"localName": "RANGE-END",
+						"values": [],
+						"namespace": "",
+						"attribute": true,
+						"type": "string"
+					},
+					{
+						"name": "RANGE-START",
+						"localName": "RANGE-START",
+						"values": [],
+						"namespace": "",
+						"attribute": true,
+						"type": "string"
+					},
+					{
+						"name": "TYPE",
+						"localName": "TYPE",
+						"values": [],
+						"namespace": "",
+						"attribute": true,
+						"type": "string"
+					}
+					],
+					"namespace": "",
+					"element": true,
+					"type": "string"
+				},
+				{
+					"name" : "CONGRESS-SESSION",
+					"localName": "CONGRESS-SESSION",
+					"elements":[],
+					"values" : [],
+					"attributes": [],
+					"namespace": "",
+					"element": true,
+					"type": "string"
+				},
+				{
+					"name" : "COLLATION",
+					"localName": "COLLATION",
+					"elements":[],
+					"values" : [],
+					"attributes": [],
+					"namespace": "",
+					"element": true,
+					"type": "string"
+				},
+				{
+					"name" : "CONGRESSIONAL-SERIAL-NO",
+					"localName": "CONGRESSIONAL-SERIAL-NO",
+					"elements":[],
+					"values" : [],
+					"attributes": [],
+					"namespace": "",
+					"element": true,
+					"type": "string"
+				},
+				{
+					"name" : "SUDOC",
+					"localName": "SUDOC",
+					"elements":[],
+					"values" : [],
+					"attributes": [],
+					"namespace": "",
+					"element": true,
+					"type": "string"
+				},
+				{
+					"name" : "PDF-PAGE-COUNT",
+					"localName": "PDF-PAGE-COUNT",
+					"elements":[],
+					"values" : [],
+					"attributes": [],
+					"namespace": "",
+					"element": true,
+					"type": "string"
+				}
+				],
+				"values": [],
+				"attributes": [],
+				"namespace": "",
+				"element": true,
+				"type": "string"
+			}
+		],
+		"attributes": [{
+				"name": "AIRECORD",
+				"localName": "AIRECORD",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			},
+			{
+				"name": "ANI-ID",
+				"localName": "ANI-ID",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			},
+			{
+				"name": "BIB-ID",
+				"localName": "BIB-ID",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			},
+			{
+				"name": "BIBTYPE",
+				"localName": "BIBTYPE",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			},
+			{
+				"name": "EVENT-ID",
+				"localName": "EVENT-ID",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			},
+			{
+				"name": "ISSUE-CODE",
+				"localName": "ISSUE-CODE",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			},
+			{
+				"name": "PRODUCT-CODE",
+				"localName": "PRODUCT-CODE",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			},
+			{
+				"name": "PRODUCT-YEAR",
+				"localName": "PRODUCT-YEAR",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			},
+			{
+				"name": "SET-ID",
+				"localName": "SET-ID",
+				"values": [],
+				"namespace": "",
+				"attribute": true,
+				"type": "string"
+			}
+		],
+		"value" : [],
+		"namespace":"",
+		"element":true
+	}],
+	"namespace":"",
+	"schema":true
+}
